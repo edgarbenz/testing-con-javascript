@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1661797836851" clover="3.2.0">
+  <project timestamp="1661797836851" name="All files">
+    <metrics statements="28" coveredstatements="19" conditionals="2" coveredconditionals="1" methods="15" coveredmethods="6" elements="45" coveredelements="26" complexity="0" loc="28" ncloc="28" packages="2" files="4" classes="4"/>
+    <package name="testing-con-javascript">
+      <metrics statements="15" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="2"/>
+      <file name="statistics.js" path="C:\Users\Edgar\testing-con-javascript\statistics.js">
+        <metrics statements="13" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="sum.js" path="C:\Users\Edgar\testing-con-javascript\sum.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="testing-con-javascript.utils">
+      <metrics statements="13" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="4"/>
+      <file name="api.js" path="C:\Users\Edgar\testing-con-javascript\utils\api.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="carrito.js" path="C:\Users\Edgar\testing-con-javascript\utils\carrito.js">
+        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
