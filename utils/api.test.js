@@ -30,14 +30,13 @@ describe('Promises: Testing Api Requests', () => {
 });
 
 describe('Resolves/Rejects: Testing Api Promises', () => {
-  it('successfulRequest()', () => {
+  it.skip('successfulRequest()', () => {
     return expect(successfulRequest()).resolves.toBeDefined();
   })
 });
 
 describe('Async & Await: Testing Api requests', () => {
   it('successfulRequest()', async () => {
-    expect.assertions(1);
     try {
       let result = await successfulRequest();
       expect(result.status).toEqual(200);

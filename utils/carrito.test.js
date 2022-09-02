@@ -19,6 +19,11 @@ describe('Testing the Carrito class', () => {
       carrito.addProduct(aguaProduct);
       expect(carrito.items).toContainEqual(aguaProduct);
     })
+
+    it('should call inStock when adding a product', () => {
+      let spy = jest.spyOn(carrito, 'inStock');
+      carrito.addProduct(aguaProduct);
+    })
   });
 
   describe('removeProduct()', () => {

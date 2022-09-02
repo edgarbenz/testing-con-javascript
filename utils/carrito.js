@@ -4,7 +4,9 @@ module.exports = class Carrito {
   }
 
   addProduct(product) {
-    this.items.push(product);
+    if(this.inStock(product)) {
+      this.items.push(product)
+    }
   }
 
   removeProduct(product) {
@@ -17,6 +19,10 @@ module.exports = class Carrito {
 
   getTotalCheckout() {
     return this.items.reduce((suma, item) => suma + item.price, 0); //reduce setea SUMA a 0  , es como el map pero de mas catego
+  }
+
+  inStock(product) {
+    return product.stockNumber && product.stockNumber > 0;
   }
 
 
